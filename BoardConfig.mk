@@ -39,3 +39,5 @@ BOARD_HAVE_GENERIC_BLN := true
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/serranoltexx/init/init_serranolte.cpp
+
+TARGET_NO_SD_ADOPT_ENCRYPTION := true
